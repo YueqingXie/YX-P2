@@ -164,8 +164,8 @@ a.back {
 }
 
 .cntr{
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .sentence{
@@ -175,6 +175,13 @@ a.back {
   font-size: 1.1em;
 }
 
+.sentence2{
+  color: black;
+  text-align: center;
+  padding: 2px;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
 
 .mssg{
   color: rgb(82, 80, 80);
