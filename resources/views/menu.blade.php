@@ -316,7 +316,7 @@
 
 <div class="cntr">
 
-    <h2 class="sentence2"><a href="/">Y.X. P2</a> - Menu</h2>
+    <h2 class="sentence2"><a href="/" class="black-text">Y.X. P2</a> - Menu</h2>
     <img src="/img2/1.png" width="100%" height="100%" alt="" class="responsive-img "/>
     <img src="/img2/2.png" width="100%" height="100%" alt="" class="responsive-img "/>
     <img src="/img2/3.png" width="100%" height="100%" alt="" class="responsive-img "/>
