@@ -1,4 +1,4 @@
-@extends('layouts.menulayout')
+@extends('layouts.app')
 
 @section('content')
 <!-- <div class="cntr">
