@@ -46,12 +46,11 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-//             'host' => env('DB_HOST', '127.0.0.1'),
+
             'host' => env('DB_HOST', 'us-cdbr-east-02.cleardb.com'),
             'port' => env('DB_PORT', '3306'),
-//             'database' => env('DB_DATABASE', 'forge'),
-//             'username' => env('DB_USERNAME', 'forge'),
-//             'password' => env('DB_PASSWORD', ''),
+
+            
             'database' => env('DB_DATABASE', 'b8fd332383e403'),
             'username' => env('DB_USERNAME', 'b8fd332383e403'),
             'password' => env('DB_PASSWORD', '67c7ca20'),
@@ -70,11 +69,11 @@ return [
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', 'us-cdbr-east-02.cleardb.com'),
             'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'b8fd332383e403'),
+            'username' => env('DB_USERNAME', 'b8fd332383e403'),
+            'password' => env('DB_PASSWORD', '67c7ca20'),
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
@@ -85,11 +84,11 @@ return [
         'sqlsrv' => [
             'driver' => 'sqlsrv',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', 'localhost'),
+            'host' => env('DB_HOST', 'us-cdbr-east-02.cleardb.com'),
             'port' => env('DB_PORT', '1433'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'b8fd332383e403'),
+            'username' => env('DB_USERNAME', 'b8fd332383e403'),
+            'password' => env('DB_PASSWORD', '67c7ca20'),
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
