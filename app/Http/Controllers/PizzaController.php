@@ -37,16 +37,16 @@ class PizzaController extends Controller
 
   public function store(){
 
-    $pizza = new Pizza();
-    $pizza->name = request('name');
-    $pizza->phone = request('phone');
-    $pizza->address = request('address');
-    $pizza->delivery = request('delivery');
-    $pizza->rice = request('rice');
-    $pizza->drinks = request('drinks');
-    $pizza->dishes = request('dishes');
+    // $pizza = new Pizza();
+    // $pizza->name = request('name');
+    // $pizza->phone = request('phone');
+    // $pizza->address = request('address');
+    // $pizza->delivery = request('delivery');
+    // $pizza->rice = request('rice');
+    // $pizza->drinks = request('drinks');
+    // $pizza->dishes = request('dishes');
 
-    $pizza->save(); // save to db
+    // $pizza->save(); // save to db
 
     return redirect('/')->with('mssg', 'Thanks for your order');
   }

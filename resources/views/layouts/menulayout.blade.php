@@ -29,10 +29,9 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    <!-- {{ config('app.name', 'Laravel') }} -->
+                <!-- <a class="navbar-brand" href="{{ url('/') }}">
                     Y.X. P2
-                </a>
+                </a> -->
 
 
 
@@ -44,12 +43,15 @@
         </main>
     </div>
 
-    <footer >
+    
+</body>
+
+<footer >
   <div>
     Copyright &copy; 2020 Y.X. P2
   </div>
 
 
       </footer>
-</body>
+      
 </html>

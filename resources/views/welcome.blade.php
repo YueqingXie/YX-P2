@@ -17,7 +17,8 @@
     @endif
 
     <div class="content">
-        <a href="{{ url('/home') }}">
+        <!-- <a href="{{ url('/home') }}"> -->
+        <a>
             <img src="/img/C.png" alt="pizza house logo" width=20% height=20%>
         </a>
         
